@@ -148,8 +148,9 @@
 .lots__card-list {
     display: flex;
     gap: 25px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     list-style: none;
+    flex-grow: 1;
 }
 
 .lots__card-list-item {
